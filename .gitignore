@@ -4,13 +4,13 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
+lib/
 lib64/
 parts/
 sdist/
@@ -22,21 +22,26 @@ wheels/
 
 # Virtual Environment
 venv/
+env/
 ENV/
-
-# Environment Variables
-.env
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-.cursorrules
-.cursorignore
-.cursorindexingignore
 
-# OS
+# Environment variables
+.env
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Local development
 .DS_Store
 Thumbs.db
 
