@@ -15,19 +15,17 @@ An AI-powered hedge fund system that uses multiple AI agents to analyze stocks a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-hedge-fund.git
-cd ai-hedge-fund
+git clone https://github.com/simplesafe/ai-hedge-fund.git && cd ai-hedge-fund
 ```
 
 2. Create and activate a virtual environment:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv venv && source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install .
 ```
 
 ## Usage
