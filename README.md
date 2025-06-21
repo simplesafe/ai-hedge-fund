@@ -36,6 +36,7 @@ Run the hedge fund with a specific ticker:
 
 ```bash
 python src/main.py --ticker AAPL
+python src/main.py --ticker GOOG --show-agent-graph --show-reasoning --ollama 
 ```
 
 Additional options:
